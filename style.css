@@ -1,0 +1,674 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+
+
+
+img {
+
+    max-width: 100%;
+
+
+}
+
+#container{
+
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 600px;
+
+
+}
+
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: raw;
+    align-items: center ;
+    height: 120px;
+    background-color: #020403;
+    
+
+}
+
+.logo{
+    flex-grow: 1;
+    flex-basis: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:  italic;
+    font-weight: 900;
+    font-size: 35px;
+    padding: 10px;
+    margin-left: 5px;
+    color: black;
+    text-shadow:  1px 1px 0px #ccc;
+    text-transform: uppercase;
+}
+
+
+.logo h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:  italic;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+#menu{
+    flex-grow: 1;
+    flex-basis: 40%;
+    height:100% ;
+    margin-right: 5px;
+
+   
+}
+
+#menu > ul{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+
+}
+
+
+#menu a{
+
+text-transform: uppercase;
+color: #ffffff;
+transition: all 300ms;
+
+
+}
+
+
+#menu a:hover{
+    background: #cccccc;
+    
+
+
+}
+
+.buttom{
+
+    display: flex;
+    margin-right: 20px;
+    /* color: white; */
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+.containerLogo{
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #020403;
+
+
+}
+
+
+.texto{
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+.texto h1{
+    color: #adadad;
+    font-weight: 600;
+    font-size: 30px;
+
+
+}
+
+
+
+.texto h4{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+
+
+.logos{
+
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.margin{
+ margin-left: 10px;
+
+}
+
+
+.containerAcercaMi{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+}
+
+.acercaDeMi{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 20px 20px;
+
+
+
+}
+
+.containerAcercaMi--parrafo{
+    width: 40%;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+
+
+
+.containerHabilidades{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+
+}
+
+
+
+.MisHabilidades{
+
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 20px 20px;
+}
+
+
+
+
+
+
+.containerLogos{
+
+    background-color: #020403;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+
+.logos--mobile{
+
+    background-color: #1C1616;
+    border-radius: 50%;
+    display: flex;
+    margin: 20px;
+    
+}
+
+
+.logos--motion{
+    
+    background-color: #1C1616;
+    border-radius: 50%;
+    display: flex;
+    margin: 20px;
+    
+}
+    
+
+
+.Experiencia{
+    background-color: #020403;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.experiencia--div{
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+ 
+
+
+
+
+
+.containerExperiencias{
+    display: flex;
+    justify-content: space-between;
+    background-color: #020403;
+
+
+
+}
+
+
+
+.containerFechas--div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+
+.containerEmpresas-div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 700px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+.coloradadad{
+
+    color: #adadad;
+}
+
+.colorffffff{
+    color:#ffffff;
+
+
+}
+
+
+
+
+
+.portafolio{
+    display: flex;
+    background-color: #020403;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.portafolio--div{
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+.containerPortafolio{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #020403;
+   
+    
+}
+
+.portafolio1{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.portafolio2{
+    margin-top: 40px;
+    margin-left: 40px;
+
+
+}
+
+.portafolio3{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.ContainerContacto{
+
+    display: flex;
+    background-color: #020403;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container--div{
+
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 50px;
+
+
+}
+
+
+.containerlogosfinal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #020403;
+    
+}
+
+
+.containerPhone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+
+.cajaphone{
+
+    border-radius: 50%;
+    background-color: #1C1616;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.phoneParrafo{
+    color: #adadad;
+    font-size: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+.containerMail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.cajaMail{
+    
+    border-radius: 50%;
+    background-color: #1C1616;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.mailParrafo{
+    color: #adadad;
+    font-size: 10px;
+    margin: 10px;
+
+
+}
+
+.phonecelular{
+    font-size: 10px;
+    color: #adadad;
+    
+}
+
+.email{
+    font-size: 10px;
+    color: #adadad;
+
+}
+
+
+
+.containerFooter{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #020403;
+}
+
+
+
+.footer h1{
+    color: #adadad;
+    margin-top: 40px;
+
+    
+
+
+}
+
+
+
+
+
+
+
+    
+        
+
+
+
+
+
+@media (max-width: 768px) {
+
+ 
+
+
+.containerFechas--div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 20px;
+    
+
+
+}
+
+
+.containerEmpresas-div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 700px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+    
+
+.containerExperiencias{
+    display: flex;
+    justify-content: center;
+    background-color: #020403;
+    
+
+
+
+}
+
+    
+#menu a{
+    display: none;
+
+    
+    }
+
+
+    .buttom{
+
+        display: flex;
+        margin-right: 20px;
+        color: white;
+        margin-bottom: 40px;
+    
+    }
+ 
+
+}
+    
+
+
+
+
+
+
+@media (max-width: 375px) {
+
+    
+.portafolio1{
+  margin-right: 30px;
+    
+}
+
+
+    
+.portafolio2{
+    margin-right: 30px;
+      
+  }
+
+  
+    
+.portafolio3{
+    margin-right: 30px;
+      
+  }
+
+
+    
+.containerPortafolio{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+   
+    
+}
+
+
+.portafolio--div{
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+
+    
+
+    
+.experiencia--div{
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+    
+}
+
+
+       
+.acercaDeMi{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 20px 20px;
+
+}
+
+   
+.MisHabilidades{
+
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 20px 20px;
+}
+
+    
+
+.containerLogos{
+
+    background-color: #020403;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+    
+
+
+
+    
+
+
+
+
+
+}
+
+
+
+
